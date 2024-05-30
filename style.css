@@ -1,0 +1,266 @@
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.hero {
+  font-family: "roboto", sans-serif;
+  height: 815px;
+  background-image: url(bilder/hero.jpeg);
+  background-size: cover;
+  background-position: center top;
+}
+
+.navbar {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  height: 56px;
+  width: 56px;
+}
+
+.menu {
+  font-family: "roboto", sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+}
+
+.links li {
+  margin: 10px;
+}
+
+.headingContainer {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.rubrik1 {
+  font-family: "roboto", sans-serif;
+  font-size: 48px;
+  color: white;
+  align-self: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.underrubrik1 {
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-top: 10px;
+  width: 500px;
+  text-align: center;
+  align-self: center;
+}
+
+.cta2 {
+  align-self: center;
+  text-align: center;
+  background-color: blue;
+}
+
+/* <!-- HÄR BÖRJAR EN NY SEKTION, LÄR KÄNNA OSS --> */
+.Informationstext {
+  background-color: lightgray;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.small-image {
+  width: auto;
+  height: 80%;
+  margin-right: 40px;
+  align-self: flex-start;
+  padding: 50px;
+}
+
+.text-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  padding: 100px;
+}
+
+.rubrik2 {
+  font-family: "roboto", sans-serif;
+  font-size: 48px;
+  color: black;
+  max-width: 500px;
+  text-align: center;
+  align-self: center;
+}
+
+.underrubrik2 {
+  font-family: "roboto", sans-serif;
+  font-size: 24px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  max-width: 700px;
+  text-align: center;
+  align-self: center;
+}
+
+.brodtext {
+  font-family: "roboto", sans-serif;
+  font-size: 18px;
+  color: black;
+  margin-bottom: 100px;
+}
+/* HÄR BÖRJAR SEKTION 2- REKOMMENDATIONER */
+
+.rekommendationer {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.image {
+  flex: 1;
+  max-width: 30%;
+  height: auto;
+  margin: 0 10px;
+}
+.secondary-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.text-above {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-heading {
+  font-family: "roboto", sans serif;
+  font-size: 36px;
+  color: black;
+  margin: 20px;
+}
+
+.rekommendationer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 70px;
+}
+
+.image-with-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+  margin: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.student-quote {
+  font-family: "roboto", sans serif;
+  font-size: 20px;
+  color: black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.text-container2 {
+  background-color: #f8f9f9;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.rubrik3 {
+  font-family: "roboto", sans-serif;
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+
+.brodtext2 {
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+  max-width: 500px;
+  margin-top: 20px;
+}
+/* HÄR BÖRJAR EN NY SEKTION - ANSÖKAN ÖPPEN */
+.cta3 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: blue;
+}
+/* HÄR BÖRJAR EN NY SEKTION - INFORMATION */
+.fourth-section {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  flex: 1;
+  text-align: left;
+  font-size: 16px;
+}
+
+.column p {
+  margin: 10px;
+}
+
+.logo2 {
+  height: 100px;
+  width: 100px;
+  padding: 120px;
+}
